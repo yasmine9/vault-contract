@@ -1,6 +1,6 @@
 name: workflow2
 on: 
-  workflow_dispatch:
+  repository_dispatch:
   push:
 jobs:
   build:
