@@ -7,7 +7,6 @@ jobs:
     steps:
        - env: 
            GH_TOKEN: ${{ github.token }}
-       - name: Test
          run: |
            echo "received the event"
            gh workflow run
