@@ -1,0 +1,11 @@
+name: workflow2
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test
+        run: |
+         echo "Im triggered"
+      - uses: actions/checkout@v3
