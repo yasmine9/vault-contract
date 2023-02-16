@@ -1,5 +1,5 @@
 name: external_handler
-on: repository_dispatch
+on: push
 jobs:
   build:
     runs-on: ubuntu-latest
