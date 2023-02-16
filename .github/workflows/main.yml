@@ -9,7 +9,7 @@ jobs:
            GH_TOKEN: ${{ github.token }}
          run: |
            echo "received the event"
-           gh workflow run workflow2
+           gh workflow run workflow2.yml
          name: handler
        - uses: actions/checkout@v3
      
