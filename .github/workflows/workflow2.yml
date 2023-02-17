@@ -6,7 +6,7 @@ on:
       name:
 jobs:
   build:
-    if: "github.event_name == 'lambda'"
+    if: "github.event.inputs.name == 'lambda'"
     runs-on: ubuntu-latest
 
     steps:
