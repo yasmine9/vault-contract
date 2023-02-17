@@ -2,6 +2,8 @@ name: workflow2
 on: 
   repository_dispatch:
   workflow_dispatch:
+   inputs: 
+      name:
 jobs:
   build:
     if: "github.event_name == 'lambda'"
