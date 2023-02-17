@@ -1,6 +1,7 @@
 name: workflow2
 on: 
   repository_dispatch:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
