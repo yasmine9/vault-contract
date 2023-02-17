@@ -9,5 +9,5 @@ jobs:
          GH_TOKEN: ${{ github.token }}
        run: |
          gh workflow run workflow2.yml --ref main
-     - uses: actions/checkout@v3
+     - uses: actions/checkout@v2
      
