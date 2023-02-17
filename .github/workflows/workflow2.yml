@@ -9,4 +9,4 @@ jobs:
       - name: Test
         run: |
          echo "Im triggered"
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
