@@ -8,7 +8,7 @@ jobs:
      - env: 
          GH_TOKEN: ${{ github.token }}
        run: |
-         git status
+         cd ../../
          gh workflow run workflow2.yml --ref main
      - uses: actions/checkout@v3
      
